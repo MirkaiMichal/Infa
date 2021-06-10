@@ -8,7 +8,19 @@ import math as m
 import pydeck as pdk
 
 st.set_page_config(layout = 'wide')
-
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("https://www.colorhexa.com/d3d3d3.png")
+    }
+   .sidebar .sidebar-content {
+        background: url("https://www.colorhexa.com/d3d3d3.png")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 st.markdown(
     '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">',
     unsafe_allow_html=True)
